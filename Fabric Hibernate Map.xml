@@ -1,0 +1,15 @@
+<!--?xml version=“1.0? encoding=“UTF-8??-->
+ 
+<hibernate-mapping>
+    <class name="“Fabric”" table="“FABRIC”">
+    
+        <id name="“id”" column="“ID”" type="“integer”">
+           <generator class="“assigned”"></generator>
+        </id>
+
+        <property name="“name”" column="“NAME”" type="“string”"></property>
+        <property name="“description”" column="“DESCRIPTION”" type="“long”"></property>
+        <property name="“color”" column="“COLOR”" type="“string”"></property>
+
+    </class>
+</hibernate-mapping>
